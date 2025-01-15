@@ -10,4 +10,8 @@ import org.junit.jupiter.params.*;
 import org.junit.jupiter.params.provider.*;
 
 class CollectionUtilsTest {
+    @Test
+    public void myTest(){
+        CollectionUtils.containsAny(List.of(),List.of());
+    }
 }
